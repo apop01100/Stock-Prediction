@@ -10,6 +10,7 @@ Welcome to the **Stock Prediction** repository! This project aims to predict sto
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
 ---
 
 ## 🌟 Introduction
@@ -62,6 +63,24 @@ The goal is to provide accurate insights for investors and researchers.
 4. Ensure you have Jupyter Notebook installed or use an alternative IDE that supports `.ipynb` files.
 
 ---
+
+---
+
+## 🚀 Usage
+
+1. Load and prepare your stock data (e.g., `.csv` files with OHLC data).
+2. Open the `Stock_Prediction.ipynb` notebook in Jupyter:
+   ```bash
+   jupyter notebook Stock_Prediction.ipynb
+   ```
+3. Follow the step-by-step instructions to preprocess data, train the LSTM model, and visualize predictions.
+4. Use the Flask API to fetch real-time stock data:
+   ```bash
+   flask run
+   ```
+   Access the API at `http://127.0.0.1:5000/`.
+5. Refer to the [API Documentation](https://documenter.getpostman.com/view/31842216/2sAYQZHCCC) for details on using the API endpoints.
+6. Customize the code to work with your dataset and desired stocks or indices.
 
 ## 💡 Acknowledgements
 
