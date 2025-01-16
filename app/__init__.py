@@ -21,7 +21,7 @@ def create_app(test_config=None, production_config=os.getenv("PRODUCTION_CONFIG"
     
     @app.route("/")
     def index():
-        return redirect("/apidocs/#/")
+        return redirect("https://documenter.getpostman.com/view/31842216/2sAYQZHCCC")
     
     @app.before_request
     def handle_options():
