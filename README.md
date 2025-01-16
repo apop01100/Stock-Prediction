@@ -11,10 +11,6 @@ Welcome to the **Stock Prediction** repository! This project aims to predict sto
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Future Work](#future-work)
-- [License](#license)
-
 ---
 
 ## 🌟 Introduction
